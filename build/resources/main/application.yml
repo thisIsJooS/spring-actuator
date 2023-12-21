@@ -10,10 +10,10 @@ management:
   endpoint:
     health:
       show-components: always
-#  endpoints:
-#    web:
-#      exposure:
-#        include: "*"
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 logging:
   level:
